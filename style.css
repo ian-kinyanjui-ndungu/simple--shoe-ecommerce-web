@@ -3,26 +3,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #9fc887;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #f38b0a;
+    background-color: #f52938;
     color: white;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 /* Product section */
 .products {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 2rem;
 }
 
@@ -72,4 +73,18 @@ header h1 {
 
 .product button:hover {
     background-color: #d41f2e;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .footer-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
 }
